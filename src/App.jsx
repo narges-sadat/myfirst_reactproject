@@ -4,8 +4,8 @@ import avatarImage from "./assets/avatar.png";
 
 export default function App() {
   const user = {
-    name: "Ehsan Ehrari",
-    username: "@ehsanehrari",
+    name: "narges sadat",
+    username: "@nargessadat",
     avatarImage: avatarImage, // if you are using image later, we can replace this with avatarUrl
     xp: 80,
     lastActive: "Dec 22, 2025",
@@ -14,8 +14,8 @@ export default function App() {
     recentBadgesText: "No badges earned yet.",
   
     personalInfo: {
-      Email: "ehsan.ehrari@codetoinspire.org",
-      Gender: "Male",
+      Email: "nargessadat098@gmail.com",
+      Gender: "Female",
       Country: "Afghanistan",
       "Province orState ": "Herat",
       "Teaching Experience (in years)": "21",
@@ -23,7 +23,7 @@ export default function App() {
       "Online Portfolio Link": "N/A",
       "LinkedIn Link": "Open the Link",
       Languages: "farsi, english",
-      Bio: "Mentor @CodeToInspire",
+      Bio: "Student @CodeToImspire",
     },
   
     accountDetails: {
@@ -33,10 +33,10 @@ export default function App() {
     },
   };
   
-
-  return (
-    <div className="page">
+return (
+   <div className="page">
       <ProfilePage user={user} />
-    </div>
-  );
+      </div>
+)
+ 
 }
